@@ -1,0 +1,17 @@
+torch
+opencv-python
+numpy
+pillow
+trimesh
+open3d
+matplotlib
+transformers
+diffusers
+accelerate
+scipy
+scikit-image
+omegaconf
+torchvision
+requests
+tqdm
+timm

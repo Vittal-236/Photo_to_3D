@@ -1,2 +1,19 @@
-# Photo_to_3D
-This project is a Python-based tool that generates a 3D point cloud model from an image. It primarily uses MiDaS, a depth estimation model, to convert a single RGB image into a relative depth map. The depth map is then back-projected into 3D space to form a colored point cloud, which is saved as a .ply file. 
+# 3D Model Generator from Image 
+
+This project allows you to generate a simple 3D object from:
+- an image of a single item (like a toy, chair, etc.)
+
+## How to Run
+1. Create virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+2. Install:
+```bash
+pip install -r requirements.txt
+```
+3. Run with image:
+```bash
+python main.py --image test.jpg --output output/model.ply
+```
